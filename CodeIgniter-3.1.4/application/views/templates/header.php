@@ -7,6 +7,10 @@ type="text/javascript"></script>
 <!--include jQuery Validation Plugin-->
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"
 type="text/javascript"></script>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
+
 </head>
 <body>
 	<?php $this->load->helper('url');?>

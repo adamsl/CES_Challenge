@@ -1,6 +1,6 @@
 <h2><?php echo $title; ?></h2>
 
-<table style="border-style: solid; border-width: 1px;">
+<table style="border-style: solid; border-width: 1px;" class="current_view">
 	<tr>
     	<th style="border-style: solid; border-width: .5px;">Name</th>
     	<th style="border-style: solid; border-width: .5px;">Birthdate</th>

@@ -6,9 +6,9 @@ class Members extends CI_Controller {
 		$this->load->helper( 'url_helper' );
 	}
 	public function index() {
-		$data ['members'] = $this->Office_model->get_members();
-		$data ['title'] = 'Office Birthdays';
-		$data ['heading'] = 'Office Birthdays';
+		$data ['members']	= $this->Office_model->get_members();
+		$data ['title'] 	= 'Office Birthdays';
+		$data ['heading'] 	= 'Office Birthdays';
 		
 		$this->load->view( 'templates/header', $data );
 		$this->load->view( 'members/index', $data );
